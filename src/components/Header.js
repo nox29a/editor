@@ -16,6 +16,8 @@ const Header = () => {
             <div className='m-2  p-2 border-2 border-purple-800 bg-black rounded-xl bg-opacity-60 cursor-pointer' >
             <a href='#About'>About</a></div>
             <div className='m-2 p-2 border-2 border-purple-800 bg-black rounded-xl bg-opacity-60 cursor-pointer' >
+            <a href='#Showreel'>Showreel</a></div>
+            <div className='m-2 p-2 border-2 border-purple-800 bg-black rounded-xl bg-opacity-60 cursor-pointer' >
             <a href='#Videos'>Videos</a></div>
 
             <div className='m-2 p-2 border-2 border-purple-800 bg-black rounded-xl bg-opacity-60 cursor-pointer' >
