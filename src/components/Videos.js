@@ -24,7 +24,7 @@ const Videos = () => {
 
           <p class="text-2xl m-2">Kompleksowe edycje 📹</p>
           <p class="text-base m-2">Jestem pasjonatem montażu kompleksowych filmów video, tworzę wyjątkowe historie z dbałością o każdy detal. Zapraszam do odkrywania moich produkcji!</p>
-          <a href="https://www.tiktok.com/@imszymonpietruszka"><button class="border p-1 m-2 rounded-xl">Zobacz</button></a>
+          <a href="https://www.tiktok.com/@karolina9793"><button class="border p-1 m-2 rounded-xl">Zobacz</button></a>
    
         </div>
       </div>
