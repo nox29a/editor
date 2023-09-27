@@ -2,4 +2,4 @@
 
 ## Website link
 
-https://react-resume-rose.vercel.app/
+https://editor-nox.vercel.app/
