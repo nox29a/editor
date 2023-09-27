@@ -1,15 +1,15 @@
 import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import PromoPhoto1 from '../img/promo5.JPG';
-import PromoPhoto2 from '../img/promo4.JPG';
-import PromoPhoto3 from '../img/promo6.JPG';
-import PromoPhoto4 from '../img/promo7.JPG';
+import PromoPhoto1 from '../img/promo5.jpg';
+import PromoPhoto2 from '../img/promo4.jpg';
+import PromoPhoto3 from '../img/promo6.jpg';
+import PromoPhoto4 from '../img/promo7.jpg';
 AOS.init();
 const Photos = () => {
       return (
 <div id='Photos' className='grid place-items-center pt-32 bg-black'>
-<h1 data-aos="flip-down" className='text-[70px] sm:text-[90px] text-center p-8 gap-4'>Zdjęcia</h1>
+<h1 data-aos="flip-down" className='text-[70px] sm:text-[90px] text-center p-8 gap-4'>Photos</h1>
 <div class="relative flex min-h-[450px] items-center justify-center overflow-hidden ">
   <div class="max-w-2xl px-24">
     <div class="relative h-52 w-[20rem] lg:h-80 lg:w-[32rem] shadow-xl shadow-black/60">
