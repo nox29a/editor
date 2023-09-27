@@ -1,10 +1,10 @@
 import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import PromoPhoto1 from '../img/promo5.jpg';
-import PromoPhoto2 from '../img/promo4.jpg';
-import PromoPhoto3 from '../img/promo6.jpg';
-import PromoPhoto4 from '../img/promo7.jpg';
+import PromoPhoto1 from '../img/promo5.JPG';
+import PromoPhoto2 from '../img/promo4.JPG';
+import PromoPhoto3 from '../img/promo6.JPG';
+import PromoPhoto4 from '../img/promo7.JPG';
 AOS.init();
 const Photos = () => {
       return (
