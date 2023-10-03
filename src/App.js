@@ -1,24 +1,25 @@
 import React from 'react';
-import About from './components/About';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+
+import Home from './pages/Home';
+import VideosPage from './pages/VideosPage';
+
 import Header from './components/Header';
-import Showreel from './components/Showreel';
-import Social from './components/Social';
-import Photos from './components/Photos';
 import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Videos from './components/Videos';
+
 
 const App = () => {
   return <div className='overflow-hidden'>
+    <Router>
     <Header />
-    <Hero />
-    <About />
-    <Showreel />
-    <Videos />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/Videos' element={<VideosPage />} />
+
+      </Routes>
+      <Footer />
+    </Router>
   
-    <Photos />
-    <Social />
-    <Footer />
   </div>;
 };
 

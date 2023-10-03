@@ -1,8 +1,6 @@
 import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Github from '../img/25231.png';
-import Vercel from '../img/25331.png';
 AOS.init();
 
 const Socials = () => {

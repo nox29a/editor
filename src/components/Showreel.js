@@ -1,6 +1,4 @@
 import React from 'react';
-import Github from '../img/25231.png';
-import Vercel from '../img/25331.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -22,6 +20,7 @@ const Portfolio = () => {
   <div className='align-middle mt-32'>
    
     <h2 className='text-[40px] flex justify-center'>2023</h2>
+
   </div>
   </div>
 
