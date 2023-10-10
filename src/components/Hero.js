@@ -1,5 +1,7 @@
 import React from 'react';
 import HeroImg from '../img/hero.png';
+import MainSlider from '../components/MainSlider.js';
+
 const Hero = () => {
   return (
 <div id="Hero" className='grid h-screen place-items-center bg-black z-2'>
@@ -17,7 +19,10 @@ const Hero = () => {
       </span></h1>
     </div>
       <div className='z-1 animate-in md:flex-rows flex justify-end    mt-96 lg:mt-20'>
-        <img className=' flex max-w-[400px] max-h-[400px] align-bottom' src={HeroImg} alt="hero"></img>
+      <div className='flex max-w-[300px] max-h-[300px] lg:max-w-[400px] lg:max-h-[400px] align-bottom rounded-3xl'>
+
+<MainSlider />
+</div>
       </div>
   </div>
   
