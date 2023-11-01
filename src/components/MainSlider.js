@@ -50,7 +50,7 @@ const MainSlider = () => {
       return <SwiperSlide key={index}>
 
           <div className='h-[400px] w-[300px]'>
-            <div className='absolute font-semibold flex text-[32px] text-center uppercase z-20 text-primary border-2 rounded-full bg-black border-purple-800 w-[220px]  top-[220px] left-20 lg:left-44 lg:top-80 p-2'>{slide.title}</div>
+            <div className='absolute font-semibold flex text-[32px] text-center uppercase z-20 text-primary border-2 rounded-full bg-black border-purple-800 w-[220px]  top-[160px] lg:left-44 lg:top-80 p-2'>{slide.title}</div>
             <img className='absolute w-full rounded-full' src={slide.img} alt='promoimages'></img>
           </div>
       </SwiperSlide>
