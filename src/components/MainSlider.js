@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 import sliderimg from '../img/hero3.jpg'
 import sliderimg2 from '../img/hero2.jpg'
 import sliderimg3 from '../img/hero1.jpg'
-import HeroImg from '../img/hero.png';
+import sliderimg4 from '../img/hero.png';
 
 const sliderData = [
   {
@@ -25,7 +25,7 @@ const sliderData = [
     title: "Subtitles",
     },
     {
-      img: HeroImg,
+      img: sliderimg4,
       title: "Logos and Avatars",
         },
 ]
