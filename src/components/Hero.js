@@ -18,12 +18,9 @@ const Hero = () => {
       Designer
       </span></h1>
     </div>
-      <div className='md:flex-rows flex justify-end    mt-96 lg:mt-20'>
-      <div className='flex max-w-[300px] max-h-[300px] lg:max-w-[400px] lg:max-h-[400px] align-bottom rounded-3xl'>
 
 <MainSlider />
-</div>
-      </div>
+
   </div>
   
 </div>
