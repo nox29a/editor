@@ -25,8 +25,8 @@ const sliderData = [
     title: "Subtitles",
     },
     {
-        img: HeroImg,
-        title: "Logos and Avatars",
+      img: HeroImg,
+      title: "Logos and Avatars",
         },
 ]
 
