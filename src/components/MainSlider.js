@@ -37,7 +37,7 @@ const MainSlider = () => {
       modules={[Autoplay, Pagination]} // Ensure both Autoplay and Pagination are added
       loop={true}
       autoplay={{
-        delay: 3000,
+        delay: 30000,
         disableOnInteraction: false,
       }}
       pagination={{ clickable: true }} // Add pagination for better interaction
