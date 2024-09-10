@@ -31,33 +31,35 @@ const sliderData = [
 ]
 
 const MainSlider = () => {
-
   return (
-  <Swiper
-      className='mainSlider h-full rounded-sm'
-      modules={[Autoplay]}
+    <Swiper
+      className="mainSlider h-full rounded-sm"
+      modules={[Autoplay, Pagination]} // Ensure both Autoplay and Pagination are added
       loop={true}
       autoplay={{
-          delay: 3000,
-          disableOnInteraction: false
+        delay: 3000,
+        disableOnInteraction: false,
       }}
-      
-
+      pagination={{ clickable: true }} // Add pagination for better interaction
     >
-  
-    <>
-      {sliderData.map((slide, index) => {
-      return <SwiperSlide key={index}>
-
-          <div className='h-[400px] w-[300px]'>
-            <div className='absolute font-semibold flex text-[32px] text-center uppercase z-20 text-primary border-2 rounded-full bg-black border-purple-800 w-[220px]  top-[160px] lg:left-44 lg:top-80 p-2'>{slide.title}</div>
-            <img className='absolute w-full rounded-full' src={slide.img} alt='promoimages'></img>
+      {sliderData.map((slide, index) => (
+        <SwiperSlide key={index}>
+          <div className="relative h-[400px] w-full flex justify-center items-center">
+            {/* Updated styling to use relative positioning */}
+            <div className="absolute font-semibold flex text-[32px] text-center uppercase z-20 text-primary border-2 rounded-full bg-black border-purple-800 p-2">
+              {slide.title}
+            </div>
+            <img
+              className="w-full h-full object-cover rounded-full" // Ensure images cover the container properly
+              src={slide.img}
+              alt="promoimages"
+            />
           </div>
-      </SwiperSlide>
-      })}
-    </>
-  </Swiper>
+        </SwiperSlide>
+      ))}
+    </Swiper>
   );
 };
+
 
 export default MainSlider;
