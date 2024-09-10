@@ -31,33 +31,42 @@ const sliderData = [
 ]
 
 const MainSlider = () => {
+
   return (
-    <Swiper
-      className="mainSlider h-full rounded-sm"
-      modules={[Autoplay, Pagination]} // Ensure both Autoplay and Pagination are added
+  <Swiper
+      className='mainSlider h-full bg-primary md:bg-mainSlider rounded-sm'
+      modules={[Autoplay, Pagination]}
       loop={true}
       autoplay={{
-        delay: 30000,
-        disableOnInteraction: false,
+          delay: 5000,
+          disableOnInteraction: false
       }}
-      pagination={{ clickable: true }} // Add pagination for better interaction
+      pagination={{ clickable: true }}
+
     >
-      {sliderData.map((slide, index) => (
-        <SwiperSlide key={index}>
-          <div className="relative h-[400px] w-full flex justify-center items-center">
-            {/* Updated styling to use relative positioning */}
-            <div className="absolute font-semibold flex text-[32px] text-center uppercase z-20 text-primary border-2 rounded-full bg-black border-purple-800 p-2">
-              {slide.title}
+  
+    <>
+      {sliderData.map((slide, index) => {
+      return <SwiperSlide key={index}>
+          <div className='flex flex-col h-full justify-center'>
+            <div className='text-[40px] uppercase font-medium pl-10'>
+              {slide.pretitle} <br/>
             </div>
-            <img
-              className="w-full h-full object-cover rounded-full" // Ensure images cover the container properly
-              src={slide.img}
-              alt="promoimages"
-            />
+            <div className='text-[13px] uppercase font-medium my-4 pl-10'>
+              {slide.title1} <br/>
+              {slide.title2} 
+            </div>
+         </div>
+          <div className='flex justify-center h-[350px]'>
+            <img className='h-[400px] absolute z-20 top-4 right-10' src={slide.img} alt=''></img>
           </div>
-        </SwiperSlide>
-      ))}
-    </Swiper>
+          <div className='flex btn btn-accent z-30 w-40 absolute bottom-10 left-10'>
+          <a href={slide.move}><button>{slide.btnText}</button></a>
+          </div>
+      </SwiperSlide>
+      })}
+    </>
+  </Swiper>
   );
 };
 
