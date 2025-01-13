@@ -13,7 +13,7 @@ const AllVideos = () => {
 
 
                 <iframe
-                  src="https://www.tiktok.com/embed/7281714592705711392"
+                  src="https://drive.google.com/file/d/1v8TpHSzLHdv9ClgEo8dHFBK7KnG2_SiX/preview"
                   class="w-auto h-[500px] border-2 border-purple-900 rounded-xl "
                   allowfullscreen
                   scrolling="no"
