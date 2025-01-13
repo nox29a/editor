@@ -9,17 +9,7 @@ const AllVideos = () => {
 <h1 data-aos="flip-down" className='text-[40px] md:text-[70px] sm:text-[90px] text-center p-8 gap-4'>All videos</h1>
   <div class="grid gap-10 grid-cols-1 lg:grid-cols-3 p-10 lg:p-20">
 {/* video */}
-    <div class="aspect-w-9 aspect-h-16">
 
-
-                <iframe
-                  src="https://drive.google.com/file/d/1v8TpHSzLHdv9ClgEo8dHFBK7KnG2_SiX/preview"
-                  class="w-auto h-[500px] border-2 border-purple-900 rounded-xl "
-                  allowfullscreen
-                  scrolling="no"
-                  allow="encrypted-media;"
-                ></iframe>
-              </div>
 
            {/* video */}
     <div class="aspect-w-9 aspect-h-16">
