@@ -80,10 +80,10 @@ const AllVideos = () => {
     {/*dłuższe filmy*/}
     
     <div class="">
-  <iframe class="h-[225px] w-[400px]" src="https://player.vimeo.com/video/404296988?h=ea51e71a26" frameborder="0"></iframe>
+  <iframe class="h-[225px] w-[400px]" src="https://drive.google.com/file/d/1FLVpAyr-ot-yL1DmugOUC7DLvRM_UKi0/preview" frameborder="0"></iframe>
 </div>
     <div class="">
-  <iframe class="h-[225px] w-[400px]" src="https://player.vimeo.com/video/401111307?h=eef72a0cc6" frameborder="0"></iframe>
+  <iframe class="h-[225px] w-[400px]" src="https://drive.google.com/file/d/195TOzePT58IyYle6k6TUUWXuNGYwyTXr/preview" frameborder="0"></iframe>
 </div>
     <div class="">
   <iframe class="h-[225px] w-[400px]" src="https://www.youtube.com/embed/H20IUSS71K0?si=fHDInuVnhPuW0Byw" frameborder="0"></iframe>
