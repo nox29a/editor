@@ -12,43 +12,20 @@ const AllVideos = () => {
 
 
            {/* video */}
-    <div class="aspect-w-9 aspect-h-16">
 
-
-                <iframe
-                  src="https://www.tiktok.com/embed/7280981665730563361"
-                  class="w-auto h-[500px] border-2 border-purple-900 rounded-xl "
-                  allowfullscreen
-                  scrolling="no"
-                  allow="encrypted-media;"
-                ></iframe>
-              </div>
-
-       {/* video */}
-    <div class="aspect-w-9 aspect-h-16">
-
-
-                <iframe
-                  src="https://www.tiktok.com/embed/7281327565145378081"
-                  class="w-auto h-[500px] border-2 border-purple-900 rounded-xl "
-                  allowfullscreen
-                  scrolling="no"
-                  allow="encrypted-media;"
-                ></iframe>
-              </div>
-
-       {/* video */}
        <div class="aspect-w-9 aspect-h-16">
 
 
 <iframe
-  src="https://www.youtube.com/embed/4sn6F_GE96E"
+  src="https://drive.google.com/file/d/1p8LpgulWsKR1M_tmyEKhMjYKAe4YlW23/preview"
   class="w-auto h-[500px] border-2 border-purple-900 rounded-xl "
   allowfullscreen
   scrolling="no"
   allow="encrypted-media;"
 ></iframe>
 </div>
+        <div></div>
+       {/* video */}
 
 
        {/* video */}
@@ -56,46 +33,42 @@ const AllVideos = () => {
 
 
 <iframe
-  src="https://www.tiktok.com/embed/7164517650444340486"
+  src="https://drive.google.com/file/d/1yCdtDNaRAYDlhaxNnnXcwO5W71kZ2ioE/preview"
   class="w-auto h-[500px] border-2 border-purple-900 rounded-xl "
   allowfullscreen
   scrolling="no"
   allow="encrypted-media;"
 ></iframe>
 </div>
+        <div></div>
+
+
+       {/* video */}
+
 
        {/* video */}
        <div class="aspect-w-9 aspect-h-16">
 
 
 <iframe
-  src="https://www.tiktok.com/embed/7258946886311120154"
+  src="https://drive.google.com/file/d/1ajkIdYuTTATtM_tMF5jaPJ4qJkrxwUMx/preview"
   class="w-auto h-[500px] border-2 border-purple-900 rounded-xl "
   allowfullscreen
   scrolling="no"
   allow="encrypted-media;"
 ></iframe>
 </div>
+        <div></div>
+
+       {/* video */}
+
 
        {/* video */}
        <div class="aspect-w-9 aspect-h-16">
 
 
 <iframe
-  src="https://www.tiktok.com/embed/7215121159401131291"
-  class="w-auto h-[500px] border-2 border-purple-900 rounded-xl "
-  allowfullscreen
-  scrolling="no"
-  allow="encrypted-media;"
-></iframe>
-</div>
-
-       {/* video */}
-       <div class="aspect-w-9 aspect-h-16">
-
-
-<iframe
-  src="https://www.tiktok.com/embed/7279082299675659552"
+  src="https://drive.google.com/file/d/1ibr6_JlycYAKHSr70qSTAdU4yIO7mygF/preview"
   class="w-auto h-[500px] border-2 border-purple-900 rounded-xl "
   allowfullscreen
   scrolling="no"
