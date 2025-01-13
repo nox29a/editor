@@ -4,12 +4,12 @@ import Showreel from '../components/Showreel';
 import Social from '../components/Social';
 import Photos from '../components/Photos';
 import Hero from '../components/Hero';
-import Videos from '../components/Videos';
+import AllVideos from '../components/AllVideos';
 
 const Home = () => {
   return <div className='overflow-hidden'>
     <Showreel />
-    <Videos />
+    <AllVideos />
     <Social />
   </div>;
 };
